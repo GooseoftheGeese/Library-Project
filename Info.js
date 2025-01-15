@@ -2,7 +2,7 @@ var url="https://raw.githubusercontent.com/b-mcavoy/datasets/refs/heads/main/Cul
 
 var types= getColumn(url,1);
 var titles= getColumn(url,2); 
-var countrys= getColumn(url,3);
+var countries= getColumn(url,3);
 var addedToNetflix= getColumn(url,4);
 var releaseDates= getColumn(url,5);
 var ratings= getColumn(url,6);
