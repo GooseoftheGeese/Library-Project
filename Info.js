@@ -1,12 +1,12 @@
 var url="https://raw.githubusercontent.com/b-mcavoy/datasets/refs/heads/main/Culture%20%26%20Entertainment/Netflix%20Content.csv"
 
-var type= getColumn(url,1);
-var title= getColumn(url,2); 
-var country= getColumn(url,3);
+var types= getColumn(url,1);
+var titles= getColumn(url,2); 
+var countrys= getColumn(url,3);
 var addedToNetflix= getColumn(url,4);
-var releaseDate= getColumn(url,5);
-var rating= getColumn(url,6);
-var genre= getColumn(url,7);
+var releaseDates= getColumn(url,5);
+var ratings= getColumn(url,6);
+var genres= getColumn(url,7);
 
 function getInformationFromTitle(contentName){
     var info=[]
