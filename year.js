@@ -7,13 +7,16 @@ var releaseYears=getColumn(url,5);
 var ratings=getColumn(url,6);
 var genre=getColumn(url,7)
 
-function getMovieFromAfterYear(year){
-    var moviesAfterYear=[]
+// returns a list of all shows and movies after a certain year
+// year{number} specified number
+// return{list} all shows and movies after a certain year
+function getContentFromAfterYear(year){
+    var contentAfterYear=[]
     for(var i=0; i<movies.length; i++){
         if(releaseYears[i]>=year){
             moviesAfterYear.push(movies[i])
         }
     }
-    return moviesAfterYear
+    return contentAfterYear
 }
-console.log (getMovieFromAfterYear(2020))
+console.log (getContentFromAfterYear())
