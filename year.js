@@ -8,18 +8,20 @@ var ratings=getColumn(url,6);
 var genre=getColumn(url,7)
 
 // returns a list of all shows and movies after a certain year
-// year{number} specified number year
+// year{number} specified number
 // return{list} all shows and movies after a certain year
 function getContentFromAfterYear(year){
     var contentAfterYear=[]
     for(var i=0; i<movies.length; i++){
         if(releaseYears[i]>=year){
-            moviesAfterYear.push(movies[i])
+            contentAfterYear.push(movies[i])
         }
     }
     if(contentAfterYear.length==0){
         return -1
     }
     return contentAfterYear
+}
+console.log (getContentFromAfterYear())
 }
 console.log (getContentFromAfterYear(2113))
