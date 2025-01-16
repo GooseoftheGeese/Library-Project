@@ -8,6 +8,9 @@ var releaseDates= getColumn(url,5);
 var ratings= getColumn(url,6);
 var genres= getColumn(url,7);
  
+//Returns all shows or movies that are under a certain rating
+//rating{string} the rating you select 
+// return {list} all shows and movies that are under the specfied rating
 function getContentFromRating(rating){
     var matchingContent=[];
     for(var i=0; i<titles.length; i++){
