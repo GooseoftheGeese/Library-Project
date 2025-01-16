@@ -7,8 +7,10 @@ var releaseYears=getColumn(url,5);
 var ratings=getColumn(url,6);
 var genres=getColumn(url,7)
 
-
-function getMovieFromGenre(genre){
+//gives a list of movies and shows from a certain genre
+//genre{string} chosen genre
+// return {list} list of all shows and movies from the specified genre
+function getContentFromGenre(genre){
     var MovieWithGenre=[]
     for (var i=0; i<movies.length; i++){
         if (genres[i].lowerCase().includes(genre.lowerCase())){
@@ -20,4 +22,4 @@ function getMovieFromGenre(genre){
     }
     return MovieWithGenre
 }
-console.log (getMovieFromGenre("Comedy"))
+console.log (getContentFromGenre("Comedy"))
