@@ -5,8 +5,6 @@ The function getInformationFromTitle() returns a list of information such as rat
 ###### return{list} all information pertaining to the specified show/movie
 **`function getInformationFromTitle(titleName)`**
 #
-
-#
 The function getContentFromRating() returns a list of all the shows and movies under a certain rating that is specified
 ##### returns a list of movies and shows under a certain rating
 ###### rating{string} the specified rating
