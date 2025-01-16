@@ -26,7 +26,7 @@ The function getContentFromAfterYear() returns a list of all the shows and movie
 ###### return{list} all the shows and movies after specified year 
 **`function getContentFromAfterYear(year)`**
 #
-The function getContentFromCGenre() returns a list of all the shows and movies of a certain genre
+The function getContentFromGenre() returns a list of all the shows and movies of a certain genre
 ##### returns a list of mvoies and shows of a specified genre
 ###### country{string} the selected genre
 ###### return{list} all the shows and movies of the selected genre
