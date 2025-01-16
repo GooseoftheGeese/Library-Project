@@ -1,6 +1,5 @@
 # Library-Project
 The function getInformationFromTitle() returns a list of information such as rating and release year that is for the specified title
-#
 ##### returns the information of a certain show
 ###### contentName{string}chosen show/movie
 ###### return{list} all information pertaining to the specified show/movie
