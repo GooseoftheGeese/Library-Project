@@ -23,5 +23,4 @@ function getContentFromAfterYear(year){
     return contentAfterYear
 }
 console.log (getContentFromAfterYear())
-}
-console.log (getContentFromAfterYear(2113))
+
