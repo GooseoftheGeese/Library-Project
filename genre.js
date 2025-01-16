@@ -20,6 +20,9 @@ function getContentFromGenre(genre){
             MovieWithGenre.push(movies[i])
         }
     }
+    if(MovieWithGenre.length==0){
+        return -1
+    }
     return MovieWithGenre
 }
 console.log (getContentFromGenre("Comedy"))
