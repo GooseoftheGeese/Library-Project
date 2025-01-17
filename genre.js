@@ -13,10 +13,7 @@ var genres=getColumn(url,7)
 function getContentFromGenre(genre){
     var MovieWithGenre=[]
     for (var i=0; i<movies.length; i++){
-        if (genres[i].lowerCase().includes(genre.lowerCase())){
-            if(movies[i].substring(0, 1)== "\""){
-                
-            }
+        if (genres[i].toLowerCase().includes(genre.toLowerCase())){
             MovieWithGenre.push(movies[i])
         }
     }
@@ -25,4 +22,4 @@ function getContentFromGenre(genre){
     }
     return MovieWithGenre
 }
-console.log (getContentFromGenre("Comedy"))
+console.log (getContentFromGenre("romantic"))
